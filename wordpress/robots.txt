@@ -1,0 +1,14 @@
+# Added by Google
+# Modify or delete this file to allow robots to crawl your site.
+# http://www.robotstxt.org/robotstxt.html
+
+# Block all robots
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+#Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Disallow: /license.txt
+Allow: /
